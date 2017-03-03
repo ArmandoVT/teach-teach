@@ -1,0 +1,59 @@
+.menu{
+	background-color: #00080a;
+	width: 100%;
+	height: 100px;
+}
+
+.menu-border {
+	border-left: 1px solid #C8E3E8;
+	width: 3px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	margin-top: 28px;
+}
+
+
+.menu-input{
+	margin-left: 40%;
+	border: 3px solid #c8e3e8;
+    border-radius: 40px;
+    width: 160px;
+    font-size: 10px;
+    
+    background-image: url("imagenes/iconos-07.png");
+	background-repeat: no-repeat; 
+	background-position: 2px;
+}
+
+.menu-link-1, .menu-link-2{
+	color: #c8e3e8;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-link-1{
+	padding-left: 10px;
+}
+
+.menu-link-2{
+	padding-left: 5px;
+}
+
+.menu-titulo{
+	color: white;
+	display: inline-block;
+}
+
+.menu-img{
+	position: absolute;
+	margin-left: 5%;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.menu-texto{
+	padding-top: 8px;
+	margin-left: 180px;
+}
