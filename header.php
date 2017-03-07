@@ -4,12 +4,6 @@
 		<meta charset="UTF-8">
 		<title>Teach & Teach</title>
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<style type="text/css">
-			@font-face {
-				font-family: AvenirNextLTPro-Regular;
-				src: url(tipografia/avenir-next-lt-pro/AvenirNextLTPro-Regular.otf);
-			}
-		</style>
 	</head>
 		<body>
 			<div class="menu">

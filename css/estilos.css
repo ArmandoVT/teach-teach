@@ -1,10 +1,22 @@
+@font-face{
+	font-family: Avenir;
+	src: url(../tipografia/avenir-next-lt-pro/AvenirNextLTPro-Regular.otf);
+}
+
+body{
+	font-family: Avenir;
+	background: #36a9e1;
+	margin: 0;
+    padding: 0;
+}
+
 .menu{
 	background-color: #00080a;
 	width: 100%;
 	height: 100px;
 	position: fixed;
 	top: 0;
-	left: 0;
+	z-index: 50;
 }
 
 .menu-border {
@@ -22,9 +34,14 @@
     border-radius: 40px;
     width: 160px;
     font-size: 10px;
-    background-image: url("imagenes/iconos-07.png");
-	background-repeat: no-repeat; 
-	background-position: 2px;
+    padding-left: 10px;
+    background: white;
+}
+
+.menu-input
+{
+	background-image: url(../imagenes/lupa-01.png) no-repeat scroll 0 0 transparent; 
+    background-position: right;
 }
 
 .menu-link-1, .menu-link-2{
@@ -63,9 +80,6 @@
 	width: 100%;
 	height: 90px;
 	background: #c8e3e8;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 }
 
 .footer-linea{
@@ -80,13 +94,13 @@
 }
 
 .sub-menu{
-	width: 80%;
+	width: 100%;
 	height: 250px;
 	color: #36a9e1;
-	position: absolute;
 	bottom: 90px;
+	left: 0;
 	text-align: center;
-	margin-left: 10%;
+	background: white;
 }
 
 .sub-menu-title{
@@ -122,4 +136,78 @@
 	border-top: 4px solid #36a9e1;
 	width: 90%;
 	margin: 0 auto;
+}
+
+.menu-espacio{
+	padding-top: 100px;
+}
+
+.usuario{
+	background: #c8e3e8;
+	width: 50%;
+	margin: 130px auto 30px;
+	border-radius: 40px;
+}
+
+.usuario-img{
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.usuario-nombre{
+	font-size: 23px;
+	display: inline-block;
+	margin: 20px 190px 10px;
+}
+
+hr {
+  	background-color: black;
+  	height: 3px;
+  	width: 30%;
+  	margin: 0 210px;
+}
+
+.usuario-ocupacion, .usuario-correo, .usuario-escuela{
+	font-size: 20px;
+}
+
+.usuario-ocupacion{
+	margin: 0px 250px;
+}
+
+.usuario-correo{
+	margin: 80px 26px 5px;
+}
+
+.usuario-escuela, .usuario-asesor, .usuario-alumno,
+.usuario-habilidades, .usuario-adicional{
+	margin: 5px 26px;
+}
+
+.usuario-asesor, .usuario-alumno{
+	font-size: 15px;
+}
+
+.usuario-habilidades, .usuario-adicional{
+	font-size: 18px;
+	padding-left: 20px;
+	border-radius: 20px;
+	width: 88%;
+	height: 100px;
+}
+
+.usuario-adicional{
+	margin-bottom: 30px;
+}
+
+.usuario-imagenes-asesor img, .usuario-imagenes-alumno img{
+	width: 40px;
+	height: 40px;
+}
+
+.usuario-imagenes-asesor, .usuario-imagenes-alumno{
+	margin-left: 26px;
 }
