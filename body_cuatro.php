@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php
+    include("header.php");
+?>
+<link rel="stylesheet" href="css/styles.css">
 
-<head>
-    <meta charset="UTF-8">
-
-    
-
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body class="body_cuatro">
+<div class="body_cuatro espacio">
   <div class="body_cuatro_contenido">
     <form>
         <p>Titulo de la asesoría:</p>
@@ -30,6 +24,6 @@
   </div>
 
 
-</body>
+</div>
 
-</html>
+

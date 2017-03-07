@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php
+    include("header.php");
 
-<head>
-    <meta charset="UTF-8">
-    
+?>
+<link rel="stylesheet" href="css/styles.css">
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body class="body_tres">
-    <div class="colmask leftmenu">
+    <div class="colmask leftmenu espacio">
         <div class="colleft">
 
             <div class="col1">
@@ -86,6 +81,4 @@
             </div>
         </div>
     </div>
-</body>
 
-</html>
