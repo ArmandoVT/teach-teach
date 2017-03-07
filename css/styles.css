@@ -1,0 +1,170 @@
+  .body_tres {
+      background-color: #39A7DF;
+      margin: 0;
+      padding: 0;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+ th {
+    border: 1px solid #dddddd;
+    text-align: center;;
+    padding: 20px;
+  }
+  td{
+  padding: 60px;
+  border-left: 1px solid #ddd;
+
+  }
+
+
+  .izquierda {
+      border-style: solid;
+      border-width: 2px 2px 2px 0px;
+      border-color: white;
+      text-align: center;
+  }
+  .izquierda_2 {
+      border-style: solid;
+      border-width: 1px 2px 2px 0px;
+      border-color: white;
+      text-align: center;
+  }
+  .derecha {
+    margin-top: 100px;
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: white;
+      text-align: center;
+  }
+    .image {
+      display: block;
+      width: 25%;
+      height: 25%;
+      margin: 15px 0 5px 35%;
+
+    }
+    p{
+      font-family: arial;
+      font-size:
+    }
+    .cat{
+      margin-left: 30px;
+    }
+    .izquierda a{
+      text-decoration: none;
+      color: white;
+    }
+    .izquierda_2 a{
+      text-decoration: none;
+      color: white;
+    }
+
+
+
+  .colmask {
+      position: relative;
+      /* This fixes the IE7 overflow hidden bug */
+      clear: both;
+      float: left;
+      width: 100%;
+      /* width of whole page */
+      overflow: hidden;
+      /* This chops off any overhanging divs */
+  }
+
+
+  /* common column settings */
+
+  .colright, .colmid, .colleft {
+      float: left;
+      width: 100%;
+      position: relative;
+  }
+
+  .col1, .col2, .col3 {
+      float: left;
+      position: relative;
+
+      overflow: hidden;
+      color: white;
+  }
+
+  /* 2 Column (left menu) settings */
+  .leftmenu {
+      background: #39A7DF;
+      /* right column background colour */
+  }
+
+  .leftmenu .colleft {
+      right: 80%;
+      /* right column width */
+      background: #39A7DF;
+      /* left column background colour */
+  }
+
+  .leftmenu .col1 {
+      width: 74%;
+      /* right column content width */
+      left: 98%;
+      /* 100% plus left column left padding */
+  }
+
+  .leftmenu .col2 {
+      width: 14%;
+      /* left column content width (column width minus left and right padding) */
+      left: 5%;
+      /* (right column left and right padding) plus (left column left padding) */
+  }
+  .body_cuatro{
+    background-color: #39A7DF;
+
+
+  }
+  .body_cuatro_contenido{
+    
+    margin: 50px 50px 100px 50px;
+    padding: 0;
+    color: white;
+  }
+  .titulo_asesoria{
+    background-color: #D7EAF4;
+    border: none;
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 40px;
+    border-radius: 12px;
+    color: black;
+  }
+  .textarea{
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 80px;
+    background-color: #D7EAF4;
+    border-radius: 12px;
+    color: black;
+    border: none;
+  }
+
+  .categoria{
+      min-width: 100px;
+      min-height: 40px;
+      background-color: #D7EAF4;
+      border-radius: 12px;
+      color: black;
+      border: none;
+  }
+
+  .fecha_hora{
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 320px;
+    background-color: #D7EAF4;
+    border-radius: 12px;
+    color: black;
+    border: none;
+  }
